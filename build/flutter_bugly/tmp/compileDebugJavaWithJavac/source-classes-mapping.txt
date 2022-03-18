@@ -1,0 +1,13 @@
+com/crazecoder/flutterbugly/bean/BuglyInitResultInfo.java
+ com.crazecoder.flutterbugly.bean.BuglyInitResultInfo
+com/crazecoder/flutterbugly/callback/UpgradeCallback.java
+ com.crazecoder.flutterbugly.callback.UpgradeCallback
+com/crazecoder/flutterbugly/utils/JsonUtil.java
+ com.crazecoder.flutterbugly.utils.JsonUtil
+com/crazecoder/flutterbugly/FlutterBuglyPlugin.java
+ com.crazecoder.flutterbugly.FlutterBuglyPlugin
+ com.crazecoder.flutterbugly.FlutterBuglyPlugin$1
+com/crazecoder/flutterbugly/BuildConfig.java
+ com.crazecoder.flutterbugly.BuildConfig
+com/crazecoder/flutterbugly/utils/MapUtil.java
+ com.crazecoder.flutterbugly.utils.MapUtil

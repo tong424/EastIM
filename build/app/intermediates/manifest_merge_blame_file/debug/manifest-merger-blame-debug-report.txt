@@ -1,0 +1,898 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.openim.app.demo"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:5:5-67
+14-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:5:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:6:5-80
+15-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:6:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:7:5-81
+16-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:7:22-78
+17    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+17-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:8:5-80
+17-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:8:22-77
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:9:5-71
+18-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:9:22-68
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:10:5-76
+19-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:10:22-73
+20    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+20-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:11:5-86
+20-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:11:22-83
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:12:5-79
+21-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:12:22-76
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:13:5-68
+22-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:13:22-65
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+23-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:14:5-77
+23-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:14:22-74
+24    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+24-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:15:5-95
+24-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:15:22-92
+25
+26    <uses-permission-sdk-23 android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+26-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:16:5-89
+26-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:16:29-87
+27
+28    <uses-permission android:name="android.permission.CALL_PHONE" />
+28-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:17:5-68
+28-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:17:22-66
+29
+30    <uses-feature android:name="android.hardware.camera" />
+30-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:19:5-60
+30-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:19:19-57
+31    <uses-feature android:name="android.hardware.camera.autofocus" />
+31-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:20:5-70
+31-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:20:19-67
+32
+33    <uses-permission android:name="android.permission.CAMERA" />
+33-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:22:5-65
+33-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:22:22-62
+34    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+34-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:23:5-79
+34-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:23:22-76
+35    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+35-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:24:5-80
+35-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:24:22-77
+36    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+36-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:25:5-81
+36-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:25:22-78
+37    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+37-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:26:5-79
+37-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:26:22-76
+38    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+38-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:27:5-89
+38-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:27:22-86
+39    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+39-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:28:5-76
+39-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:28:22-73
+40    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+40-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:29:5-75
+40-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:29:22-72
+41    <uses-permission android:name="android.permission.VIBRATE" />
+41-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:30:5-66
+41-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:30:22-63
+42    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- Provide required visibility configuration for API level 30 and above -->
+42-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:31:5-80
+42-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:31:22-78
+43    <queries>
+43-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:34:5-46:15
+44        <intent>
+44-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:35:9-38:18
+45            <action android:name="android.intent.action.VIEW" />
+45-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:36:13-65
+45-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:36:21-62
+46
+47            <data android:scheme="https" />
+47-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:37:13-44
+47-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:37:19-41
+48        </intent>
+49        <intent>
+49-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:39:9-42:18
+50            <action android:name="android.intent.action.DIAL" />
+50-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:40:13-65
+50-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:40:21-62
+51
+52            <data android:scheme="tel" />
+52-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:37:13-44
+52-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:37:19-41
+53        </intent>
+54        <intent>
+54-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:43:9-45:18
+55            <action android:name="android.speech.RecognitionService" />
+55-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:44:13-72
+55-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:44:21-69
+56        </intent>
+57        <intent>
+57-->[:file_picker] C:\Users\Dell\Desktop\EastIM3.3\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-14:18
+58            <action android:name="android.intent.action.GET_CONTENT" />
+58-->[:file_picker] C:\Users\Dell\Desktop\EastIM3.3\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-72
+58-->[:file_picker] C:\Users\Dell\Desktop\EastIM3.3\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:21-69
+59
+60            <data android:mimeType="*/*" />
+60-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:37:13-44
+61        </intent>
+62        <intent>
+62-->[:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-10:18
+63            <action android:name="android.support.customtabs.action.CustomTabsService" />
+63-->[:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-90
+63-->[:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:9:21-87
+64        </intent>
+65
+66        <package android:name="com.google.android.apps.maps" />
+66-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-64
+66-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-61
+67        <package android:name="com.google.android.apps.mapslite" />
+67-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:9-68
+67-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:18-65
+68        <package android:name="com.autonavi.minimap" />
+68-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-56
+68-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:18-53
+69        <package android:name="com.baidu.BaiduMap" />
+69-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-54
+69-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:18-51
+70        <package android:name="com.waze" />
+70-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-44
+70-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:12:18-41
+71        <package android:name="ru.yandex.yandexnavi" />
+71-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-56
+71-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:13:18-53
+72        <package android:name="ru.yandex.yandexmaps" />
+72-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-56
+72-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:14:18-53
+73        <package android:name="com.citymapper.app.release" />
+73-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-62
+73-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:15:18-59
+74        <package android:name="com.mapswithme.maps.pro" />
+74-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-59
+74-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:16:18-56
+75        <package android:name="net.osmand" />
+75-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-46
+75-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:17:18-43
+76        <package android:name="net.osmand.plus" />
+76-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-51
+76-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:18:18-48
+77        <package android:name="ru.dublgis.dgismobile" />
+77-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-57
+77-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:19:18-54
+78        <package android:name="com.tencent.map" />
+78-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:20:9-51
+78-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:20:18-48
+79        <package android:name="com.here.app.maps" />
+79-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-53
+79-->[:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:21:18-50
+80
+81        <intent>
+81-->[androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:25:9-27:18
+82            <action android:name="android.media.browse.MediaBrowserService" />
+82-->[androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:26:13-79
+82-->[androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:26:21-76
+83        </intent>
+84        <intent>
+84-->[androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:28:9-30:18
+85            <action android:name="androidx.media2.session.MediaSessionService" />
+85-->[androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:29:13-82
+85-->[androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:29:21-79
+86        </intent>
+87        <intent>
+87-->[androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:31:9-33:18
+88            <action android:name="androidx.media2.session.MediaLibraryService" />
+88-->[androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:32:13-82
+88-->[androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:32:21-79
+89        </intent>
+90    </queries>
+91
+92    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+92-->[:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-81
+92-->[:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-78
+93    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+93-->[:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-79
+93-->[:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-76
+94    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+94-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-91
+94-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-88
+95    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+95-->[:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-83
+95-->[:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-80
+96
+97    <uses-feature
+97-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:28:5-30:36
+98        android:name="android.hardware.camera.front"
+98-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:29:9-53
+99        android:required="false" />
+99-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:30:9-33
+100    <uses-feature
+100-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:36:5-38:36
+101        android:name="android.hardware.camera.flash"
+101-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:37:9-53
+102        android:required="false" />
+102-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:38:9-33
+103    <uses-feature
+103-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:39:5-41:36
+104        android:name="android.hardware.screen.landscape"
+104-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:40:9-57
+105        android:required="false" />
+105-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:41:9-33
+106    <uses-feature
+106-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:42:5-44:36
+107        android:name="android.hardware.wifi"
+107-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:43:9-45
+108        android:required="false" /> <!-- for android -->
+108-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:44:9-33
+109    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+110    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+111    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+112    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+113    <!-- for Samsung -->
+114    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+114-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+114-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+115    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+115-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+115-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+116    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+116-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+116-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+117    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+117-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+117-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+118    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+118-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+118-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+119    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+119-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+119-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+120    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+120-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+120-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+121    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" />
+121-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+121-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+122    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+122-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+122-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+123    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+123-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+123-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+124    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+124-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+124-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+125    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+125-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+125-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+126    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+126-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+126-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+127    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+127-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+127-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+128    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" /> <!-- Required -->
+128-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+128-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+129    <permission
+129-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:11:5-13:47
+130        android:name="io.openim.app.demo.permission.JPUSH_MESSAGE"
+130-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:12:9-65
+131        android:protectionLevel="signature" /> <!-- Required  一些系统要求的权限，如访问网络等 -->
+131-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:13:9-44
+132    <uses-permission android:name="io.openim.app.demo.permission.JPUSH_MESSAGE" />
+132-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:16:5-81
+132-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:16:22-78
+133    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+133-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:21:5-73
+133-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:21:22-70
+134    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" /> <!-- vivo 角标 -->
+134-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:22:5-84
+134-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:22:22-81
+135    <uses-permission android:name="com.vivo.notification.permission.BADGE_ICON" />
+135-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:29:5-83
+135-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:29:22-80
+136    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+136-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:33:5-78
+136-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:33:22-75
+137    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+137-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:36:5-85
+137-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:36:22-82
+138    <uses-permission android:name="android.permission.GET_TASKS" />
+138-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:38:5-68
+138-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:38:22-65
+139    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+139-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:39:5-77
+139-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:39:22-74
+140
+141    <application
+141-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:48:5-111:19
+142        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+142-->[androidx.core:core:1.6.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\67ff0aaf930f65024e6c37d99bc9e852\core-1.6.0\AndroidManifest.xml:24:18-86
+143        android:debuggable="true"
+144        android:icon="@mipmap/ic_launcher"
+144-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:49:9-43
+145        android:label="EastIM"
+145-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:52:9-31
+146        android:requestLegacyExternalStorage="true"
+146-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:51:9-52
+147        android:usesCleartextTraffic="true" >
+147-->[:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:9:9-44
+148        <activity
+148-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:53:9-81:20
+149            android:name="io.openim.app.demo.MainActivity"
+149-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:54:13-41
+150            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+150-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:55:13-163
+151            android:hardwareAccelerated="true"
+151-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:56:13-47
+152            android:launchMode="singleTop"
+152-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:57:13-43
+153            android:showWhenLocked="true"
+153-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:60:13-42
+154            android:theme="@style/LaunchTheme"
+154-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:58:13-47
+155            android:turnScreenOn="true"
+155-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:61:13-40
+156            android:windowSoftInputMode="adjustResize" >
+156-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:59:13-55
+157
+158            <!--
+159                 Specifies an Android theme to apply to this Activity as soon as
+160                 the Android process has started. This theme is visible to the user
+161                 while the Flutter UI initializes. After that, this theme continues
+162                 to determine the Window background behind the Flutter UI.
+163            -->
+164            <meta-data
+164-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:66:13-68:57
+165                android:name="io.flutter.embedding.android.NormalTheme"
+165-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:67:17-72
+166                android:resource="@style/NormalTheme" />
+166-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:68:17-54
+167            <!--
+168                 Displays an Android View that continues showing the launch screen
+169                 Drawable until Flutter paints its first frame, then this splash
+170                 screen fades out. A splash screen is useful to avoid any visual
+171                 gap between the end of Android's launch screen and the painting of
+172                 Flutter's first frame.
+173            -->
+174            <meta-data
+174-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:74:13-76:66
+175                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+175-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:75:17-81
+176                android:resource="@drawable/launch_background" />
+176-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:76:17-63
+177
+178            <intent-filter>
+178-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:77:13-80:29
+179                <action android:name="android.intent.action.MAIN" />
+179-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:78:17-69
+179-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:78:25-66
+180
+181                <category android:name="android.intent.category.LAUNCHER" />
+181-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:79:17-77
+181-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:79:27-74
+182            </intent-filter>
+183        </activity>
+184        <!--
+185             Don't delete the meta-data below.
+186             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+187        -->
+188        <meta-data
+188-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:84:9-86:33
+189            android:name="flutterEmbedding"
+189-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:85:13-44
+190            android:value="2" />
+190-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:86:13-30
+191
+192        <activity
+192-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:88:9-91:71
+193            android:name="com.yalantis.ucrop.UCropActivity"
+193-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:89:13-60
+194            android:screenOrientation="portrait"
+194-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:90:13-49
+195            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+195-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:91:13-69
+196
+197        <!--
+198             If you want your foreground service to be stopped if
+199             your app is stopped, set android:stopWithTask to true.
+200             See https://developer.android.com/reference/android/R.attr#stopWithTask
+201        -->
+202        <service
+202-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:96:9-99:43
+203            android:name="com.dexterous.flutterlocalnotifications.ForegroundService"
+203-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:97:13-85
+204            android:exported="false"
+204-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:98:13-37
+205            android:stopWithTask="false" />
+205-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:99:13-41
+206
+207        <provider
+208            android:name="androidx.core.content.FileProvider"
+209            android:authorities="io.openim.app.demo.fileProvider"
+210            android:exported="false"
+211            android:grantUriPermissions="true" >
+212            <meta-data
+212-->[:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+213                android:name="android.support.FILE_PROVIDER_PATHS"
+213-->[:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+214                android:resource="@xml/file_paths" >
+214-->[:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+215            </meta-data>
+216        </provider>
+217        <provider
+217-->[:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+218            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+218-->[:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+219            android:authorities="io.openim.app.demo.flutter.image_provider"
+219-->[:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+220            android:exported="false"
+220-->[:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+221            android:grantUriPermissions="true" >
+221-->[:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+222            <meta-data
+222-->[:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+223                android:name="android.support.FILE_PROVIDER_PATHS"
+223-->[:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+224                android:resource="@xml/flutter_image_picker_file_paths" />
+224-->[:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+225        </provider>
+226
+227        <receiver
+227-->[:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-15:40
+228            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+228-->[:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-97
+229            android:exported="false" />
+229-->[:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+230        <receiver
+230-->[:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-25:20
+231            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+231-->[:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-101
+232            android:exported="false" >
+232-->[:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+233            <intent-filter>
+233-->[:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-24:29
+234                <action android:name="android.intent.action.BOOT_COMPLETED" />
+234-->[:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-79
+234-->[:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-76
+235                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+235-->[:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:17-84
+235-->[:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:25-81
+236                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+236-->[:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-82
+236-->[:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:25-79
+237                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+237-->[:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:17-82
+237-->[:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:25-79
+238            </intent-filter>
+239        </receiver>
+240
+241        <activity
+241-->[:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-17:47
+242            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+242-->[:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-104
+243            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+243-->[:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-137
+244            android:theme="@style/AppTheme" />
+244-->[:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-44
+245        <activity
+245-->[:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-20:55
+246            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+246-->[:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-112
+247            android:theme="@style/ThemeTransparent" />
+247-->[:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-52
+248
+249        <receiver android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver" />
+249-->[:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-120
+249-->[:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:22:19-117
+250
+251        <meta-data
+251-->[:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-26:36
+252            android:name="io.flutter.embedded_views_preview"
+252-->[:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-61
+253            android:value="true" />
+253-->[:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-33
+254
+255        <activity
+255-->[:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-14:64
+256            android:name="com.tencent.bugly.beta.ui.BetaActivity"
+256-->[:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-66
+257            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+257-->[:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-81
+258            android:theme="@android:style/Theme.Translucent" />
+258-->[:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-61
+259
+260        <provider
+260-->[:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-24:20
+261            android:name="com.tencent.bugly.beta.utils.BuglyFileProvider"
+261-->[:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-74
+262            android:authorities="io.openim.app.demo.fileProvider"
+262-->[:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-64
+263            android:exported="false"
+263-->[:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-37
+264            android:grantUriPermissions="true" >
+264-->[:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-47
+265            <meta-data
+265-->[:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+266                android:name="android.support.FILE_PROVIDER_PATHS"
+266-->[:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+267                android:resource="@xml/provider_paths" />
+267-->[:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+268        </provider>
+269
+270        <receiver
+270-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-24:20
+271            android:name="com.jiguang.jpush.JPushPlugin$JPushReceiver"
+271-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+272            android:enabled="true"
+272-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-35
+273            android:exported="false" >
+273-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+274            <intent-filter>
+274-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-23:29
+275                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+275-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-79
+275-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:15:25-76
+276                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+276-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-83
+276-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:16:25-80
+277                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+277-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-88
+277-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:17:25-85
+278                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+278-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-86
+278-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:18:25-83
+279                <action android:name="cn.jpush.android.intent.NOTIFICATION_CLICK_ACTION" />
+279-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-92
+279-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:19:25-89
+280                <action android:name="cn.jpush.android.intent.CONNECTION" />
+280-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-77
+280-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-74
+281
+282                <category android:name="io.openim.app.demo" />
+282-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-61
+282-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:27-58
+283            </intent-filter>
+284        </receiver>
+285        <receiver android:name="com.jiguang.jpush.JPushEventReceiver" >
+285-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-31:20
+285-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:25:19-70
+286            <intent-filter>
+286-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-30:29
+287                <action android:name="cn.jpush.android.intent.RECEIVE_MESSAGE" />
+287-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:27:17-82
+287-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:27:25-79
+288
+289                <category android:name="io.openim.app.demo" />
+289-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-61
+289-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:27-58
+290            </intent-filter>
+291        </receiver> <!-- Since JCore2.0.0 Required SDK核心功能 -->
+292        <!-- 可配置android:process参数将Service放在其他进程中；android:enabled属性不能是false -->
+293        <!-- 这个是自定义Service，要继承极光JCommonService，可以在更多手机平台上使得推送通道保持的更稳定 -->
+294        <service
+294-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:35:9-43:19
+295            android:name="com.jiguang.jpush.JPushCustomService"
+295-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-64
+296            android:enabled="true"
+296-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-35
+297            android:exported="false"
+297-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-37
+298            android:process=":pushcore" >
+298-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-40
+299            <intent-filter>
+299-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-42:29
+300                <action android:name="cn.jiguang.user.service.action" />
+300-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:41:17-73
+300-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:41:25-70
+301            </intent-filter>
+302        </service>
+303
+304        <activity
+304-->[:url_launcher_android] C:\Users\Dell\Desktop\EastIM3.3\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+305            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+305-->[:url_launcher_android] C:\Users\Dell\Desktop\EastIM3.3\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+306            android:exported="false"
+306-->[:url_launcher_android] C:\Users\Dell\Desktop\EastIM3.3\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+307            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+307-->[:url_launcher_android] C:\Users\Dell\Desktop\EastIM3.3\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+308
+309        <provider
+309-->[:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-21:20
+310            android:name="com.crazecoder.openfile.FileProvider"
+310-->[:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-64
+311            android:authorities="io.openim.app.demo.fileProvider.com.crazecoder.openfile"
+311-->[:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-88
+312            android:exported="false"
+312-->[:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+313            android:grantUriPermissions="true" >
+313-->[:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+314            <meta-data
+314-->[:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+315                android:name="android.support.FILE_PROVIDER_PATHS"
+315-->[:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+316                android:resource="@xml/filepaths" />
+316-->[:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+317        </provider>
+318        <provider
+318-->[androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e8ca00366c5e444d4262593405dc9a3b\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:25:9-30:43
+319            android:name="androidx.camera.camera2.impl.Camera2Initializer"
+319-->[androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e8ca00366c5e444d4262593405dc9a3b\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:26:13-75
+320            android:authorities="io.openim.app.demo.camerax-init"
+320-->[androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e8ca00366c5e444d4262593405dc9a3b\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:27:13-64
+321            android:exported="false"
+321-->[androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e8ca00366c5e444d4262593405dc9a3b\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:28:13-37
+322            android:initOrder="100"
+322-->[androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e8ca00366c5e444d4262593405dc9a3b\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:29:13-36
+323            android:multiprocess="true" />
+323-->[androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e8ca00366c5e444d4262593405dc9a3b\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:30:13-40
+324
+325        <activity
+325-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:47:9-53:63
+326            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+326-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:48:13-74
+327            android:clearTaskOnLaunch="true"
+327-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:49:13-45
+328            android:screenOrientation="sensorLandscape"
+328-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:50:13-56
+329            android:stateNotNeeded="true"
+329-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:51:13-42
+330            android:theme="@style/zxing_CaptureTheme"
+330-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:52:13-54
+331            android:windowSoftInputMode="stateAlwaysHidden" />
+331-->[com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:53:13-60
+332        <activity android:name="com.tencent.bugly.beta.ui.BetaActiveAlertActivity" /> <!-- 配置tinker合成结果service -->
+332-->[com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:17:9-86
+332-->[com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:17:19-83
+333        <service
+333-->[com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:36:9-39:72
+334            android:name="com.tencent.bugly.beta.tinker.TinkerResultService"
+334-->[com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:37:13-77
+335            android:exported="false"
+335-->[com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:38:13-37
+336            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Rich push 核心功能 since 2.0.6 -->
+336-->[com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:39:13-69
+337        <activity
+337-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:50:9-61:20
+338            android:name="cn.jpush.android.ui.PopWinActivity"
+338-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:51:13-62
+339            android:exported="true"
+339-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:52:13-36
+340            android:theme="@style/MyDialogStyle" >
+340-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:53:13-49
+341            <intent-filter>
+341-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:54:13-60:29
+342                <category android:name="android.intent.category.DEFAULT" />
+342-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:55:17-76
+342-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:55:27-73
+343
+344                <action android:name="cn.jpush.android.ui.PopWinActivity" />
+344-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:57:17-77
+344-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:57:25-74
+345
+346                <category android:name="io.openim.app.demo" />
+346-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-61
+346-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:27-58
+347            </intent-filter>
+348        </activity> <!-- Required SDK核心功能 -->
+349        <activity
+349-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:64:9-75:20
+350            android:name="cn.jpush.android.ui.PushActivity"
+350-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:65:13-60
+351            android:configChanges="orientation|keyboardHidden"
+351-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:66:13-63
+352            android:exported="true"
+352-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:67:13-36
+353            android:theme="@android:style/Theme.NoTitleBar" >
+353-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:68:13-60
+354            <intent-filter>
+354-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:69:13-74:29
+355                <action android:name="cn.jpush.android.ui.PushActivity" />
+355-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:70:17-75
+355-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:70:25-72
+356
+357                <category android:name="android.intent.category.DEFAULT" />
+357-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:55:17-76
+357-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:55:27-73
+358                <category android:name="io.openim.app.demo" />
+358-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-61
+358-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:27-58
+359            </intent-filter>
+360        </activity> <!-- Required SDK 核心功能 -->
+361        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+362        <service
+362-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:78:9-89:19
+363            android:name="cn.jpush.android.service.PushService"
+363-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:79:13-64
+364            android:enabled="true"
+364-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:80:13-35
+365            android:exported="false"
+365-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:81:13-37
+366            android:process=":pushcore" >
+366-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:82:13-40
+367            <intent-filter>
+367-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:83:13-88:29
+368                <action android:name="cn.jpush.android.intent.REGISTER" />
+368-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:84:17-75
+368-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:84:25-72
+369                <action android:name="cn.jpush.android.intent.REPORT" />
+369-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:85:17-73
+369-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:85:25-70
+370                <action android:name="cn.jpush.android.intent.PushService" />
+370-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:86:17-78
+370-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:86:25-75
+371                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+371-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:87:17-76
+371-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:87:25-73
+372            </intent-filter>
+373        </service> <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+374        <!-- 若不启用该功能可删除该组件，或把 enabled 设置成 false ；App 不会被其他 App 拉起，但会拉起其他的 App。 -->
+375        <!-- jcore2.4.2 App的被拉起不依赖于该组件 -->
+376        <service
+376-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:94:9-103:19
+377            android:name="cn.jpush.android.service.DaemonService"
+377-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:95:13-66
+378            android:enabled="true"
+378-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:96:13-35
+379            android:exported="true" >
+379-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:97:13-36
+380            <intent-filter>
+380-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:98:13-102:29
+381                <action android:name="cn.jpush.android.intent.DaemonService" />
+381-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:99:17-80
+381-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:99:25-77
+382
+383                <category android:name="io.openim.app.demo" />
+383-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-61
+383-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:27-58
+384            </intent-filter>
+385        </service> <!-- 可选，如果使用静态Activity方式拉起，该组件必须声明 -->
+386        <activity
+386-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:105:9-116:20
+387            android:name="cn.jpush.android.service.DActivity"
+387-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:106:13-62
+388            android:enabled="true"
+388-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:107:13-35
+389            android:exported="true"
+389-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:108:13-36
+390            android:taskAffinity="jpush.custom"
+390-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:109:13-48
+391            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+391-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:110:13-72
+392            <intent-filter>
+392-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:111:13-115:29
+393                <action android:name="cn.jpush.android.intent.DActivity" />
+393-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:112:17-76
+393-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:112:25-73
+394
+395                <category android:name="io.openim.app.demo" />
+395-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-61
+395-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:27-58
+396            </intent-filter>
+397        </activity> <!-- Required SDK核心功能 -->
+398        <receiver
+398-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:119:9-137:20
+399            android:name="cn.jpush.android.service.PushReceiver"
+399-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:120:13-65
+400            android:enabled="true"
+400-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:121:13-35
+401            android:exported="false" >
+401-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:122:13-37
+402            <intent-filter android:priority="1000" >
+402-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:123:13-126:29
+402-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:123:28-51
+403                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+403-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:124:17-94
+403-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:124:25-91
+404                <category android:name="io.openim.app.demo" />
+404-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-61
+404-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:27-58
+405            </intent-filter>
+406            <intent-filter>
+406-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:127:13-129:29
+407                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+407-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:128:17-79
+407-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:128:25-76
+408            </intent-filter>
+409            <!-- Optional -->
+410            <intent-filter>
+410-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:131:13-136:29
+411                <action android:name="android.intent.action.PACKAGE_ADDED" />
+411-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:132:17-78
+411-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:132:25-75
+412                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+412-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:133:17-80
+412-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:133:25-77
+413
+414                <data android:scheme="package" />
+414-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:37:13-44
+414-->C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:37:19-41
+415            </intent-filter>
+416        </receiver> <!-- Required SDK核心功能 -->
+417        <receiver
+417-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:140:9-142:40
+418            android:name="cn.jpush.android.service.AlarmReceiver"
+418-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:141:13-66
+419            android:exported="false" /> <!-- since 3.5.0 Required SDK 核心功能 -->
+419-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:142:13-37
+420        <!-- 3.5.0新增，用于定时展示功能 -->
+421        <receiver
+421-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:146:9-148:40
+422            android:name="cn.jpush.android.service.SchedulerReceiver"
+422-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:147:13-70
+423            android:exported="false" /> <!-- since 3.0.9 Required SDK 核心功能 -->
+423-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:148:13-37
+424        <provider
+424-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:151:9-155:43
+425            android:name="cn.jpush.android.service.DataProvider"
+425-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:152:13-65
+426            android:authorities="io.openim.app.demo.DataProvider"
+426-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:153:13-64
+427            android:exported="false"
+427-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:154:13-37
+428            android:process=":pushcore" /> <!-- since 3.1.0 Required SDK 核心功能 -->
+428-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:155:13-40
+429        <provider
+429-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:157:9-160:39
+430            android:name="cn.jpush.android.service.DownloadProvider"
+430-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:158:13-69
+431            android:authorities="io.openim.app.demo.DownloadProvider"
+431-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:159:13-68
+432            android:exported="true" /> <!-- since 3.3.0 Required SDK核心功能 -->
+432-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:160:13-36
+433        <activity
+433-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:163:9-174:20
+434            android:name="cn.jpush.android.service.JNotifyActivity"
+434-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:164:13-68
+435            android:exported="true"
+435-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:165:13-36
+436            android:taskAffinity="jpush.custom"
+436-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:166:13-48
+437            android:theme="@style/JPushTheme" >
+437-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:167:13-46
+438            <intent-filter>
+438-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:168:13-173:29
+439                <action android:name="cn.jpush.android.intent.JNotifyActivity" />
+439-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:169:17-82
+439-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:169:25-79
+440
+441                <category android:name="android.intent.category.DEFAULT" />
+441-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:55:17-76
+441-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:55:27-73
+442                <category android:name="io.openim.app.demo" />
+442-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-61
+442-->[:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:27-58
+443            </intent-filter>
+444        </activity> <!-- since 3.5.6 新增华硕通道 -->
+445        <receiver
+445-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:177:9-179:40
+446            android:name="cn.jpush.android.asus.AsusPushMessageReceiver"
+446-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:178:13-73
+447            android:exported="false" /> <!-- Required  . Enable it you can get statistics data with channel -->
+447-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:179:13-37
+448        <meta-data
+448-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:181:9-183:48
+449            android:name="JPUSH_CHANNEL"
+449-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:182:13-41
+450            android:value="developer-default" />
+450-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:183:13-45
+451        <meta-data
+451-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:184:9-186:47
+452            android:name="JPUSH_APPKEY"
+452-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:185:13-40
+453            android:value="646f952e8310ff8c9a336dee" />
+453-->[cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:186:13-44
+454    </application>
+455
+456</manifest>

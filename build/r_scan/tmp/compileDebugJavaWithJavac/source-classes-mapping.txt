@@ -1,0 +1,48 @@
+com/rhyme/r_scan/RScanView/FlutterRScanView.java
+ com.rhyme.r_scan.RScanView.FlutterRScanView
+ com.rhyme.r_scan.RScanView.FlutterRScanView$1
+ com.rhyme.r_scan.RScanView.FlutterRScanView$QRCodeAnalyzer
+ com.rhyme.r_scan.RScanView.FlutterRScanView$QRCodeAnalyzer$1
+com/rhyme/r_scan/MethodCallHandlerImpl.java
+ com.rhyme.r_scan.MethodCallHandlerImpl
+com/rhyme/r_scan/RScanCamera/RScanCameraMethodHandler.java
+ com.rhyme.r_scan.RScanCamera.RScanCameraMethodHandler
+com/rhyme/r_scan/RScanCamera/CameraUtils.java
+ com.rhyme.r_scan.RScanCamera.CameraUtils
+ com.rhyme.r_scan.RScanCamera.CameraUtils$1
+com/rhyme/r_scan/RScanPlugin.java
+ com.rhyme.r_scan.RScanPlugin
+com/rhyme/r_scan/BuildConfig.java
+ com.rhyme.r_scan.BuildConfig
+com/rhyme/r_scan/RScanView/RScanViewFactory.java
+ com.rhyme.r_scan.RScanView.RScanViewFactory
+com/rhyme/r_scan/RScanCamera/RScanMessenger.java
+ com.rhyme.r_scan.RScanCamera.RScanMessenger
+ com.rhyme.r_scan.RScanCamera.RScanMessenger$1
+com/rhyme/r_scan/RScanCamera/RScanPermissions.java
+ com.rhyme.r_scan.RScanCamera.RScanPermissions
+ com.rhyme.r_scan.RScanCamera.RScanPermissions$1
+ com.rhyme.r_scan.RScanCamera.RScanPermissions$PermissionsRegistry
+ com.rhyme.r_scan.RScanCamera.RScanPermissions$RScanRequestPermissionsListener
+ com.rhyme.r_scan.RScanCamera.RScanPermissions$ResultCallback
+com/rhyme/r_scan/RScanCamera/RScanCamera.java
+ com.rhyme.r_scan.RScanCamera.RScanCamera
+ com.rhyme.r_scan.RScanCamera.RScanCamera$1
+ com.rhyme.r_scan.RScanCamera.RScanCamera$2
+ com.rhyme.r_scan.RScanCamera.RScanCamera$3
+ com.rhyme.r_scan.RScanCamera.RScanCamera$3$1
+ com.rhyme.r_scan.RScanCamera.RScanCamera$3$1$1
+ com.rhyme.r_scan.RScanCamera.RScanCamera$3$1$2
+ com.rhyme.r_scan.RScanCamera.RScanCamera$ResolutionPreset
+com/rhyme/r_scan/ImageScanHelper.java
+ com.rhyme.r_scan.ImageScanHelper
+ com.rhyme.r_scan.ImageScanHelper$1
+ com.rhyme.r_scan.ImageScanHelper$2
+ com.rhyme.r_scan.ImageScanHelper$3
+ com.rhyme.r_scan.ImageScanHelper$3$1
+ com.rhyme.r_scan.ImageScanHelper$4
+ com.rhyme.r_scan.ImageScanHelper$4$1
+com/rhyme/r_scan/RScanResultUtils.java
+ com.rhyme.r_scan.RScanResultUtils
+com/rhyme/r_scan/RScanView/RScanViewPlugin.java
+ com.rhyme.r_scan.RScanView.RScanViewPlugin

@@ -1,0 +1,1315 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:101:9-110:20
+	android:authorities
+		INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml
+manifest
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:1:1-112:12
+INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:1:1-112:12
+INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:1:1-112:12
+INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:1:1-112:12
+MERGED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:1:1-112:12
+MERGED from [:app_installer] C:\Users\Dell\Desktop\EastIM3.3\build\app_installer\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-12:12
+MERGED from [:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-19:12
+MERGED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-28:12
+MERGED from [:file_picker] C:\Users\Dell\Desktop\EastIM3.3\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:path_provider_android] C:\Users\Dell\Desktop\EastIM3.3\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:qr_code_scanner] C:\Users\Dell\Desktop\EastIM3.3\build\qr_code_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-10:12
+MERGED from [:wakelock] C:\Users\Dell\Desktop\EastIM3.3\build\wakelock\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:just_audio] C:\Users\Dell\Desktop\EastIM3.3\build\just_audio\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_android] C:\Users\Dell\Desktop\EastIM3.3\build\shared_preferences_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:r_scan] C:\Users\Dell\Desktop\EastIM3.3\build\r_scan\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-12:12
+MERGED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-29:12
+MERGED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-24:12
+MERGED from [:photo_manager] C:\Users\Dell\Desktop\EastIM3.3\build\photo_manager\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:flutter_app_badger] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_app_badger\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-27:12
+MERGED from [:video_player] C:\Users\Dell\Desktop\EastIM3.3\build\video_player\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:record] C:\Users\Dell\Desktop\EastIM3.3\build\record\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:permission_handler] C:\Users\Dell\Desktop\EastIM3.3\build\permission_handler\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:camera] C:\Users\Dell\Desktop\EastIM3.3\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-12:12
+MERGED from [:flutter_openim_sdk] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_openim_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:image_gallery_saver] C:\Users\Dell\Desktop\EastIM3.3\build\image_gallery_saver\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-46:12
+MERGED from [:sqflite] C:\Users\Dell\Desktop\EastIM3.3\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_android] C:\Users\Dell\Desktop\EastIM3.3\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
+MERGED from [:image_cropper] C:\Users\Dell\Desktop\EastIM3.3\build\image_cropper\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:uri_to_file] C:\Users\Dell\Desktop\EastIM3.3\build\uri_to_file\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-24:12
+MERGED from [:package_info_plus] C:\Users\Dell\Desktop\EastIM3.3\build\package_info_plus\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:audio_session] C:\Users\Dell\Desktop\EastIM3.3\build\audio_session\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_image_compress] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_image_compress\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\2c221959306f1e25600c0a03d2200e72\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.yalantis:ucrop:2.2.7] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\789056b2c6f3105b84451c617729bd65\jetified-ucrop-2.2.7\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\8e826fe49562abada5d181756485a861\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e8ca00366c5e444d4262593405dc9a3b\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.camera:camera-core:1.0.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\34914117ebbb5d71005f761fc024581e\jetified-camera-core-1.0.0-alpha05\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\4ed782b3ada0547f711b6c17d20a6444\webkit-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\fd8c6d4001161766613fe7688dfbbb89\browser-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\61dc29951a451b38e03eb63efbda5343\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0ea3fdda9f5684423892484ef8480b5f\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f1f22bf0d6e2daf1a17adf6e54c75916\jetified-core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\154602205569c6147c1ab4260dd9d425\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\56f4cf96c56e3c6b85582297d2e8851f\jetified-glide-4.11.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0fe786355672e38948fbc9c1fff747a3\fragment-1.3.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1cfe8ee384ca28182df52c824e57e5c0\jetified-activity-1.2.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\6704617e5cf2b2cf363841e778f9329d\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\22a5d9f52d495a432176451a4c4ba982\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\88e514d819cd691a05d7f01d8820d6ee\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\49dee3543bc65746b6bba9f83aa0b18a\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\2f70304b103eacfab05dbe55739e869f\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\bcd808757e47d4888ffa27457339053b\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\2c07f8b2725cf3ca7c7510a86eb18cae\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\86cf751735e9e9dd0416cce35c4a71a1\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9b944abc3171b1b947c5fff909724ff1\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\2ee35bfe9d2e9019f071c4a047a96db2\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\361553562ce35cf8cf447832c4a7d1ec\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.media2:media2-common:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\53305bc0cbbb496bd6bf264fbcbcf087\jetified-media2-common-1.1.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\8cb3cec0abd66165f8279422e222c77c\media-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\67ff0aaf930f65024e6c37d99bc9e852\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\2e3049f81ec67c09f20b6f730712845c\jetified-exoplayer-dash-2.15.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\cedb4139711189bb48f44fa17584286d\jetified-exoplayer-hls-2.15.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\87c482ca984b1c742c0289664e58bb53\jetified-exoplayer-smoothstreaming-2.15.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9c44e034de50d4f1eaa19ea7f892cfb6\jetified-exoplayer-core-2.15.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0d6ff85b25e6e52b269b3e009bb6194a\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.heifwriter:heifwriter:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b057bed7a1bc435f0312b0fcfcfc964c\heifwriter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\7c1a7b78a9eb87d9a948f050e96a4e5d\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9611d01e277af0a0bee38db16de6184f\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\bae4382a703142a8f82a100a412243f1\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\992030e32b5b233f7b54200907a8c687\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\3d71f750e18beb8ec39e98e4d040998e\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\eb99decb44820e6dccd0fcc1b7518938\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\309e1667038d12b23963ab1b63c987b5\jetified-exoplayer-extractor-2.15.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\620408d068634c9ff8807f37b708f51c\jetified-exoplayer-common-2.15.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\cf37ac08cdad525e46b47ab5b0406817\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\6e0f82970a69a6b386ee45a08ac362fe\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f796ac2056ba102e7ed64f11fdeee34b\jetified-gifdecoder-4.11.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\11ae9ec956d6bcf258c0fc60ed922820\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\17959936f75234613fb11b8c15b12e4a\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\a49d8fed6e1f73515c23ded9f02890c2\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\15faa7fdc535e832982b4615d300cb77\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1b748a836e371cc29277a1943e291316\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\268ebc0b2bd661fb18fff0cceeca14c7\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\864d8c72ef34aefd3e7b579358aeabc8\jetified-threetenabp-1.2.3\AndroidManifest.xml:2:1-9:12
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:17:1-56:12
+MERGED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:2:1-52:12
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:2:1-42:12
+MERGED from [com.tencent.bugly:nativecrashreport:3.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5b5048545e197a45585df7b9bef5d4c6\jetified-nativecrashreport-3.9.0\AndroidManifest.xml:2:1-9:12
+MERGED from [io.openim:client-sdk:1.4.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b5f93c4d1b6ef3b029f3d5232a1a27d8\jetified-client-sdk-1.4.4\AndroidManifest.xml:1:1-2:50
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:2:1-190:12
+MERGED from [cn.jiguang.sdk:jcore:3.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\97cf8da3c1ed85652df4460777433087\jetified-jcore-3.1.0\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\09be362b5b17ae2df23db8d40e6cc2f1\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:1:1-112:12
+		INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\debug\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:2:5-51
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:1:1-112:12
+		INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:10:5-67
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:10:5-67
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:17:5-67
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:6:5-80
+MERGED from [:app_installer] C:\Users\Dell\Desktop\EastIM3.3\build\app_installer\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-80
+MERGED from [:app_installer] C:\Users\Dell\Desktop\EastIM3.3\build\app_installer\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-80
+MERGED from [:file_picker] C:\Users\Dell\Desktop\EastIM3.3\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+MERGED from [:file_picker] C:\Users\Dell\Desktop\EastIM3.3\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+MERGED from [:r_scan] C:\Users\Dell\Desktop\EastIM3.3\build\r_scan\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-80
+MERGED from [:r_scan] C:\Users\Dell\Desktop\EastIM3.3\build\r_scan\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-80
+MERGED from [:photo_manager] C:\Users\Dell\Desktop\EastIM3.3\build\photo_manager\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-80
+MERGED from [:photo_manager] C:\Users\Dell\Desktop\EastIM3.3\build\photo_manager\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-80
+MERGED from [:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-80
+MERGED from [:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-80
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:20:5-80
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:20:5-80
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:7:5-81
+MERGED from [:app_installer] C:\Users\Dell\Desktop\EastIM3.3\build\app_installer\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+MERGED from [:app_installer] C:\Users\Dell\Desktop\EastIM3.3\build\app_installer\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+MERGED from [:r_scan] C:\Users\Dell\Desktop\EastIM3.3\build\r_scan\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-81
+MERGED from [:r_scan] C:\Users\Dell\Desktop\EastIM3.3\build\r_scan\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-81
+MERGED from [:photo_manager] C:\Users\Dell\Desktop\EastIM3.3\build\photo_manager\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+MERGED from [:photo_manager] C:\Users\Dell\Desktop\EastIM3.3\build\photo_manager\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:13:5-81
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:13:5-81
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:19:5-81
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_MEDIA_LOCATION
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:8:5-80
+MERGED from [:photo_manager] C:\Users\Dell\Desktop\EastIM3.3\build\photo_manager\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-80
+MERGED from [:photo_manager] C:\Users\Dell\Desktop\EastIM3.3\build\photo_manager\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:8:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:9:5-71
+MERGED from [:camera] C:\Users\Dell\Desktop\EastIM3.3\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-71
+MERGED from [:camera] C:\Users\Dell\Desktop\EastIM3.3\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:9:22-68
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:10:5-76
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:12:5-76
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:12:5-76
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:24:5-76
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:24:5-76
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:10:22-73
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:11:5-86
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:11:22-83
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9c44e034de50d4f1eaa19ea7f892cfb6\jetified-exoplayer-core-2.15.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9c44e034de50d4f1eaa19ea7f892cfb6\jetified-exoplayer-core-2.15.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\620408d068634c9ff8807f37b708f51c\jetified-exoplayer-common-2.15.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\620408d068634c9ff8807f37b708f51c\jetified-exoplayer-common-2.15.0\AndroidManifest.xml:24:5-79
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:11:5-79
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:11:5-79
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:23:5-79
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:13:22-65
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:14:5-77
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:14:22-74
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:15:5-95
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:15:22-92
+uses-permission-sdk-23#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:16:5-89
+MERGED from [:app_installer] C:\Users\Dell\Desktop\EastIM3.3\build\app_installer\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-90
+MERGED from [:app_installer] C:\Users\Dell\Desktop\EastIM3.3\build\app_installer\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-90
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:16:29-87
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:17:22-66
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:19:5-60
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:25:5-27:36
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:25:5-27:36
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:19:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:20:5-70
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:33:5-35:36
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:33:5-35:36
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:20:19-67
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:22:5-65
+MERGED from [:r_scan] C:\Users\Dell\Desktop\EastIM3.3\build\r_scan\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-65
+MERGED from [:r_scan] C:\Users\Dell\Desktop\EastIM3.3\build\r_scan\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-65
+MERGED from [:camera] C:\Users\Dell\Desktop\EastIM3.3\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-65
+MERGED from [:camera] C:\Users\Dell\Desktop\EastIM3.3\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:22:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:22:22-62
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:24:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:25:5-81
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:34:5-81
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:25:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:26:5-79
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:35:5-79
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:35:5-79
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:26:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:27:5-89
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:37:5-89
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:37:5-89
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:27:22-86
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:28:5-76
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:28:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:29:5-75
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:18:5-75
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:18:5-75
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:29:22-72
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:30:5-66
+MERGED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-66
+MERGED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-66
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:32:5-66
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:32:5-66
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:30:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:31:5-80
+MERGED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+MERGED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:31:22-78
+queries
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:34:5-46:15
+MERGED from [:file_picker] C:\Users\Dell\Desktop\EastIM3.3\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-15:15
+MERGED from [:file_picker] C:\Users\Dell\Desktop\EastIM3.3\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-15:15
+MERGED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-11:15
+MERGED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-11:15
+MERGED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-22:15
+MERGED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-22:15
+MERGED from [androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:24:5-34:15
+MERGED from [androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:24:5-34:15
+intent#action:name:android.intent.action.VIEW+data:scheme:https
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:35:9-38:18
+action#android.intent.action.VIEW
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:36:13-65
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:36:21-62
+data
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:37:13-44
+	android:scheme
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:37:19-41
+intent#action:name:android.intent.action.DIAL+data:scheme:tel
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:39:9-42:18
+action#android.intent.action.DIAL
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:40:13-65
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:40:21-62
+intent#action:name:android.speech.RecognitionService
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:43:9-45:18
+action#android.speech.RecognitionService
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:44:13-72
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:44:21-69
+application
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:48:5-111:19
+MERGED from [:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-17:19
+MERGED from [:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-17:19
+MERGED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-26:19
+MERGED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-26:19
+MERGED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-27:19
+MERGED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-27:19
+MERGED from [:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-25:19
+MERGED from [:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-25:19
+MERGED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-44:19
+MERGED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-44:19
+MERGED from [:url_launcher_android] C:\Users\Dell\Desktop\EastIM3.3\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] C:\Users\Dell\Desktop\EastIM3.3\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-12:19
+MERGED from [:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-22:19
+MERGED from [:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-22:19
+MERGED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e8ca00366c5e444d4262593405dc9a3b\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e8ca00366c5e444d4262593405dc9a3b\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:24:5-31:19
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\56f4cf96c56e3c6b85582297d2e8851f\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\56f4cf96c56e3c6b85582297d2e8851f\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.6.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\67ff0aaf930f65024e6c37d99bc9e852\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\67ff0aaf930f65024e6c37d99bc9e852\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\cf37ac08cdad525e46b47ab5b0406817\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\cf37ac08cdad525e46b47ab5b0406817\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f796ac2056ba102e7ed64f11fdeee34b\jetified-gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f796ac2056ba102e7ed64f11fdeee34b\jetified-gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\864d8c72ef34aefd3e7b579358aeabc8\jetified-threetenabp-1.2.3\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\864d8c72ef34aefd3e7b579358aeabc8\jetified-threetenabp-1.2.3\AndroidManifest.xml:7:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:46:5-54:19
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:46:5-54:19
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:16:5-40:19
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:16:5-40:19
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:47:5-188:19
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:47:5-188:19
+MERGED from [cn.jiguang.sdk:jcore:3.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\97cf8da3c1ed85652df4460777433087\jetified-jcore-3.1.0\AndroidManifest.xml:11:5-12:19
+MERGED from [cn.jiguang.sdk:jcore:3.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\97cf8da3c1ed85652df4460777433087\jetified-jcore-3.1.0\AndroidManifest.xml:11:5-12:19
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:51:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\67ff0aaf930f65024e6c37d99bc9e852\core-1.6.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:52:9-31
+	tools:targetApi
+		ADDED from [:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-28
+	android:icon
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:49:9-43
+	tools:replace
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:50:9-38
+	android:usesCleartextTraffic
+		ADDED from [:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:9:9-44
+activity#io.openim.app.demo.MainActivity
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:53:9-81:20
+	android:turnScreenOn
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:61:13-40
+	android:showWhenLocked
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:60:13-42
+	android:launchMode
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:57:13-43
+	android:hardwareAccelerated
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:56:13-47
+	android:windowSoftInputMode
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:59:13-55
+	android:configChanges
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:55:13-163
+	android:theme
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:58:13-47
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:54:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:66:13-68:57
+	android:resource
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:68:17-54
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:67:17-72
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:74:13-76:66
+	android:resource
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:76:17-63
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:75:17-81
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:77:13-80:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:78:17-69
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:78:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:79:17-77
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:79:27-74
+meta-data#flutterEmbedding
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:84:9-86:33
+	android:value
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:86:13-30
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:85:13-44
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:88:9-91:71
+	android:screenOrientation
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:90:13-49
+	android:theme
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:91:13-69
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:89:13-60
+service#com.dexterous.flutterlocalnotifications.ForegroundService
+ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:96:9-99:43
+	android:exported
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:98:13-37
+	android:stopWithTask
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:99:13-41
+	android:name
+		ADDED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml:97:13-85
+uses-sdk
+INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml
+MERGED from [:app_installer] C:\Users\Dell\Desktop\EastIM3.3\build\app_installer\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:app_installer] C:\Users\Dell\Desktop\EastIM3.3\build\app_installer\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] C:\Users\Dell\Desktop\EastIM3.3\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:file_picker] C:\Users\Dell\Desktop\EastIM3.3\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] C:\Users\Dell\Desktop\EastIM3.3\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] C:\Users\Dell\Desktop\EastIM3.3\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:qr_code_scanner] C:\Users\Dell\Desktop\EastIM3.3\build\qr_code_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:6:5-8:67
+MERGED from [:qr_code_scanner] C:\Users\Dell\Desktop\EastIM3.3\build\qr_code_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:6:5-8:67
+MERGED from [:wakelock] C:\Users\Dell\Desktop\EastIM3.3\build\wakelock\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:wakelock] C:\Users\Dell\Desktop\EastIM3.3\build\wakelock\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:just_audio] C:\Users\Dell\Desktop\EastIM3.3\build\just_audio\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:just_audio] C:\Users\Dell\Desktop\EastIM3.3\build\just_audio\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] C:\Users\Dell\Desktop\EastIM3.3\build\shared_preferences_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] C:\Users\Dell\Desktop\EastIM3.3\build\shared_preferences_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:r_scan] C:\Users\Dell\Desktop\EastIM3.3\build\r_scan\intermediates\library_manifest\debug\AndroidManifest.xml:6:5-44
+MERGED from [:r_scan] C:\Users\Dell\Desktop\EastIM3.3\build\r_scan\intermediates\library_manifest\debug\AndroidManifest.xml:6:5-44
+MERGED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:photo_manager] C:\Users\Dell\Desktop\EastIM3.3\build\photo_manager\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:photo_manager] C:\Users\Dell\Desktop\EastIM3.3\build\photo_manager\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_app_badger] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_app_badger\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_app_badger] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_app_badger\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:6:5-44
+MERGED from [:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:6:5-44
+MERGED from [:video_player] C:\Users\Dell\Desktop\EastIM3.3\build\video_player\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:video_player] C:\Users\Dell\Desktop\EastIM3.3\build\video_player\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:record] C:\Users\Dell\Desktop\EastIM3.3\build\record\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:record] C:\Users\Dell\Desktop\EastIM3.3\build\record\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] C:\Users\Dell\Desktop\EastIM3.3\build\permission_handler\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] C:\Users\Dell\Desktop\EastIM3.3\build\permission_handler\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:camera] C:\Users\Dell\Desktop\EastIM3.3\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:camera] C:\Users\Dell\Desktop\EastIM3.3\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_openim_sdk] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_openim_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_openim_sdk] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_openim_sdk\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_gallery_saver] C:\Users\Dell\Desktop\EastIM3.3\build\image_gallery_saver\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_gallery_saver] C:\Users\Dell\Desktop\EastIM3.3\build\image_gallery_saver\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] C:\Users\Dell\Desktop\EastIM3.3\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] C:\Users\Dell\Desktop\EastIM3.3\build\sqflite\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] C:\Users\Dell\Desktop\EastIM3.3\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] C:\Users\Dell\Desktop\EastIM3.3\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_cropper] C:\Users\Dell\Desktop\EastIM3.3\build\image_cropper\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_cropper] C:\Users\Dell\Desktop\EastIM3.3\build\image_cropper\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:uri_to_file] C:\Users\Dell\Desktop\EastIM3.3\build\uri_to_file\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:uri_to_file] C:\Users\Dell\Desktop\EastIM3.3\build\uri_to_file\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:6:5-44
+MERGED from [:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:6:5-44
+MERGED from [:package_info_plus] C:\Users\Dell\Desktop\EastIM3.3\build\package_info_plus\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:package_info_plus] C:\Users\Dell\Desktop\EastIM3.3\build\package_info_plus\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:audio_session] C:\Users\Dell\Desktop\EastIM3.3\build\audio_session\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:audio_session] C:\Users\Dell\Desktop\EastIM3.3\build\audio_session\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_image_compress] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_image_compress\intermediates\library_manifest\debug\AndroidManifest.xml:6:5-9:55
+MERGED from [:flutter_image_compress] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_image_compress\intermediates\library_manifest\debug\AndroidManifest.xml:6:5-9:55
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\2c221959306f1e25600c0a03d2200e72\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\2c221959306f1e25600c0a03d2200e72\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.yalantis:ucrop:2.2.7] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\789056b2c6f3105b84451c617729bd65\jetified-ucrop-2.2.7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.7] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\789056b2c6f3105b84451c617729bd65\jetified-ucrop-2.2.7\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\8e826fe49562abada5d181756485a861\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\8e826fe49562abada5d181756485a861\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e8ca00366c5e444d4262593405dc9a3b\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e8ca00366c5e444d4262593405dc9a3b\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\34914117ebbb5d71005f761fc024581e\jetified-camera-core-1.0.0-alpha05\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\34914117ebbb5d71005f761fc024581e\jetified-camera-core-1.0.0-alpha05\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\4ed782b3ada0547f711b6c17d20a6444\webkit-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\4ed782b3ada0547f711b6c17d20a6444\webkit-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\fd8c6d4001161766613fe7688dfbbb89\browser-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\fd8c6d4001161766613fe7688dfbbb89\browser-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\61dc29951a451b38e03eb63efbda5343\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\61dc29951a451b38e03eb63efbda5343\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0ea3fdda9f5684423892484ef8480b5f\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0ea3fdda9f5684423892484ef8480b5f\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f1f22bf0d6e2daf1a17adf6e54c75916\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f1f22bf0d6e2daf1a17adf6e54c75916\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\154602205569c6147c1ab4260dd9d425\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\154602205569c6147c1ab4260dd9d425\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\56f4cf96c56e3c6b85582297d2e8851f\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\56f4cf96c56e3c6b85582297d2e8851f\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0fe786355672e38948fbc9c1fff747a3\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0fe786355672e38948fbc9c1fff747a3\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1cfe8ee384ca28182df52c824e57e5c0\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1cfe8ee384ca28182df52c824e57e5c0\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\6704617e5cf2b2cf363841e778f9329d\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\6704617e5cf2b2cf363841e778f9329d\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\22a5d9f52d495a432176451a4c4ba982\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\22a5d9f52d495a432176451a4c4ba982\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\88e514d819cd691a05d7f01d8820d6ee\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\88e514d819cd691a05d7f01d8820d6ee\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\49dee3543bc65746b6bba9f83aa0b18a\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\49dee3543bc65746b6bba9f83aa0b18a\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\2f70304b103eacfab05dbe55739e869f\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\2f70304b103eacfab05dbe55739e869f\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\bcd808757e47d4888ffa27457339053b\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\bcd808757e47d4888ffa27457339053b\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\2c07f8b2725cf3ca7c7510a86eb18cae\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\2c07f8b2725cf3ca7c7510a86eb18cae\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\86cf751735e9e9dd0416cce35c4a71a1\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\86cf751735e9e9dd0416cce35c4a71a1\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9b944abc3171b1b947c5fff909724ff1\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9b944abc3171b1b947c5fff909724ff1\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\2ee35bfe9d2e9019f071c4a047a96db2\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\2ee35bfe9d2e9019f071c4a047a96db2\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\361553562ce35cf8cf447832c4a7d1ec\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\361553562ce35cf8cf447832c4a7d1ec\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-common:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\53305bc0cbbb496bd6bf264fbcbcf087\jetified-media2-common-1.1.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-common:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\53305bc0cbbb496bd6bf264fbcbcf087\jetified-media2-common-1.1.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\8cb3cec0abd66165f8279422e222c77c\media-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\8cb3cec0abd66165f8279422e222c77c\media-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\67ff0aaf930f65024e6c37d99bc9e852\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\67ff0aaf930f65024e6c37d99bc9e852\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\2e3049f81ec67c09f20b6f730712845c\jetified-exoplayer-dash-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\2e3049f81ec67c09f20b6f730712845c\jetified-exoplayer-dash-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\cedb4139711189bb48f44fa17584286d\jetified-exoplayer-hls-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\cedb4139711189bb48f44fa17584286d\jetified-exoplayer-hls-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\87c482ca984b1c742c0289664e58bb53\jetified-exoplayer-smoothstreaming-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\87c482ca984b1c742c0289664e58bb53\jetified-exoplayer-smoothstreaming-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9c44e034de50d4f1eaa19ea7f892cfb6\jetified-exoplayer-core-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9c44e034de50d4f1eaa19ea7f892cfb6\jetified-exoplayer-core-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0d6ff85b25e6e52b269b3e009bb6194a\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\0d6ff85b25e6e52b269b3e009bb6194a\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.heifwriter:heifwriter:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b057bed7a1bc435f0312b0fcfcfc964c\heifwriter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.heifwriter:heifwriter:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b057bed7a1bc435f0312b0fcfcfc964c\heifwriter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\7c1a7b78a9eb87d9a948f050e96a4e5d\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\7c1a7b78a9eb87d9a948f050e96a4e5d\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9611d01e277af0a0bee38db16de6184f\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9611d01e277af0a0bee38db16de6184f\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\bae4382a703142a8f82a100a412243f1\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\bae4382a703142a8f82a100a412243f1\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\992030e32b5b233f7b54200907a8c687\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\992030e32b5b233f7b54200907a8c687\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\3d71f750e18beb8ec39e98e4d040998e\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\3d71f750e18beb8ec39e98e4d040998e\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\eb99decb44820e6dccd0fcc1b7518938\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\eb99decb44820e6dccd0fcc1b7518938\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\309e1667038d12b23963ab1b63c987b5\jetified-exoplayer-extractor-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\309e1667038d12b23963ab1b63c987b5\jetified-exoplayer-extractor-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\620408d068634c9ff8807f37b708f51c\jetified-exoplayer-common-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.15.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\620408d068634c9ff8807f37b708f51c\jetified-exoplayer-common-2.15.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\cf37ac08cdad525e46b47ab5b0406817\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\cf37ac08cdad525e46b47ab5b0406817\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\6e0f82970a69a6b386ee45a08ac362fe\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\6e0f82970a69a6b386ee45a08ac362fe\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f796ac2056ba102e7ed64f11fdeee34b\jetified-gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f796ac2056ba102e7ed64f11fdeee34b\jetified-gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\11ae9ec956d6bcf258c0fc60ed922820\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\11ae9ec956d6bcf258c0fc60ed922820\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\17959936f75234613fb11b8c15b12e4a\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\17959936f75234613fb11b8c15b12e4a\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\a49d8fed6e1f73515c23ded9f02890c2\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\a49d8fed6e1f73515c23ded9f02890c2\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\15faa7fdc535e832982b4615d300cb77\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\15faa7fdc535e832982b4615d300cb77\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1b748a836e371cc29277a1943e291316\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\1b748a836e371cc29277a1943e291316\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\268ebc0b2bd661fb18fff0cceeca14c7\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\268ebc0b2bd661fb18fff0cceeca14c7\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\864d8c72ef34aefd3e7b579358aeabc8\jetified-threetenabp-1.2.3\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\864d8c72ef34aefd3e7b579358aeabc8\jetified-threetenabp-1.2.3\AndroidManifest.xml:5:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:20:5-44
+MERGED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:6:5-8:41
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:6:5-8:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5b5048545e197a45585df7b9bef5d4c6\jetified-nativecrashreport-3.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.9.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5b5048545e197a45585df7b9bef5d4c6\jetified-nativecrashreport-3.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [io.openim:client-sdk:1.4.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b5f93c4d1b6ef3b029f3d5232a1a27d8\jetified-client-sdk-1.4.4\AndroidManifest.xml:2:1-39
+MERGED from [io.openim:client-sdk:1.4.4] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\b5f93c4d1b6ef3b029f3d5232a1a27d8\jetified-client-sdk-1.4.4\AndroidManifest.xml:2:1-39
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.jiguang.sdk:jcore:3.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\97cf8da3c1ed85652df4460777433087\jetified-jcore-3.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.jiguang.sdk:jcore:3.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\97cf8da3c1ed85652df4460777433087\jetified-jcore-3.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\09be362b5b17ae2df23db8d40e6cc2f1\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\09be362b5b17ae2df23db8d40e6cc2f1\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\debug\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [:qr_code_scanner] C:\Users\Dell\Desktop\EastIM3.3\build\qr_code_scanner\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-64
+	android:targetSdkVersion
+		INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dell\Desktop\EastIM3.3\android\app\src\debug\AndroidManifest.xml
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+	android:exported
+		ADDED from [:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:30:13-33:49
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:30:13-33:49
+	android:resource
+		ADDED from [:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+	tools:replace
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:33:17-46
+	android:name
+		ADDED from [:image_picker] C:\Users\Dell\Desktop\EastIM3.3\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-76
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+ADDED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-15:40
+	android:exported
+		ADDED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-97
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
+ADDED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-25:20
+	android:exported
+		ADDED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-101
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-24:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-79
+	android:name
+		ADDED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-76
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:17-84
+	android:name
+		ADDED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:21:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:22:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:23:25-79
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
+ADDED from [:file_picker] C:\Users\Dell\Desktop\EastIM3.3\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-14:18
+action#android.intent.action.GET_CONTENT
+ADDED from [:file_picker] C:\Users\Dell\Desktop\EastIM3.3\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-72
+	android:name
+		ADDED from [:file_picker] C:\Users\Dell\Desktop\EastIM3.3\build\file_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:21-69
+intent#action:name:android.support.customtabs.action.CustomTabsService
+ADDED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-10:18
+action#android.support.customtabs.action.CustomTabsService
+ADDED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-90
+	android:name
+		ADDED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:9:21-87
+activity#com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity
+ADDED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-17:47
+	android:configChanges
+		ADDED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-137
+	android:theme
+		ADDED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-44
+	android:name
+		ADDED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-104
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity
+ADDED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-20:55
+	android:theme
+		ADDED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-112
+receiver#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver
+ADDED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-120
+	android:name
+		ADDED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:22:19-117
+meta-data#io.flutter.embedded_views_preview
+ADDED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-26:36
+	android:value
+		ADDED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-33
+	android:name
+		ADDED from [:flutter_inappwebview] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-61
+package#com.google.android.apps.maps
+ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-64
+	android:name
+		ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-61
+package#com.google.android.apps.mapslite
+ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:9-68
+	android:name
+		ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:18-65
+package#com.autonavi.minimap
+ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-56
+	android:name
+		ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:18-53
+package#com.baidu.BaiduMap
+ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-54
+	android:name
+		ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:18-51
+package#com.waze
+ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-44
+	android:name
+		ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:12:18-41
+package#ru.yandex.yandexnavi
+ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-56
+	android:name
+		ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:13:18-53
+package#ru.yandex.yandexmaps
+ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-56
+	android:name
+		ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:14:18-53
+package#com.citymapper.app.release
+ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-62
+	android:name
+		ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:15:18-59
+package#com.mapswithme.maps.pro
+ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-59
+	android:name
+		ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:16:18-56
+package#net.osmand
+ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-46
+	android:name
+		ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:17:18-43
+package#net.osmand.plus
+ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-51
+	android:name
+		ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:18:18-48
+package#ru.dublgis.dgismobile
+ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-57
+	android:name
+		ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:19:18-54
+package#com.tencent.map
+ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:20:9-51
+	android:name
+		ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:20:18-48
+package#com.here.app.maps
+ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-53
+	android:name
+		ADDED from [:map_launcher] C:\Users\Dell\Desktop\EastIM3.3\build\map_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:21:18-50
+activity#com.tencent.bugly.beta.ui.BetaActivity
+ADDED from [:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-14:64
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:19:9-23:56
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:19:9-23:56
+	android:configChanges
+		ADDED from [:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-81
+	android:theme
+		ADDED from [:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-61
+	tools:replace
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:23:13-53
+	android:name
+		ADDED from [:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-66
+provider#com.tencent.bugly.beta.utils.BuglyFileProvider
+ADDED from [:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-24:20
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:24:9-34:20
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:24:9-34:20
+	android:grantUriPermissions
+		ADDED from [:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-47
+	android:authorities
+		ADDED from [:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-64
+	android:exported
+		ADDED from [:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-37
+	tools:replace
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:29:13-74
+	android:name
+		ADDED from [:flutter_bugly] C:\Users\Dell\Desktop\EastIM3.3\build\flutter_bugly\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-74
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-91
+MERGED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+MERGED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:27:5-91
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:27:5-91
+	android:name
+		ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-88
+receiver#com.jiguang.jpush.JPushPlugin$JPushReceiver
+ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-24:20
+	android:enabled
+		ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-35
+	android:exported
+		ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+intent-filter#action:name:cn.jpush.android.intent.CONNECTION+action:name:cn.jpush.android.intent.MESSAGE_RECEIVED+action:name:cn.jpush.android.intent.NOTIFICATION_CLICK_ACTION+action:name:cn.jpush.android.intent.NOTIFICATION_OPENED+action:name:cn.jpush.android.intent.NOTIFICATION_RECEIVED+action:name:cn.jpush.android.intent.REGISTRATION+category:name:${applicationId}
+ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-23:29
+intent-filter#action:name:cn.jpush.android.intent.CONNECTION+action:name:cn.jpush.android.intent.MESSAGE_RECEIVED+action:name:cn.jpush.android.intent.NOTIFICATION_CLICK_ACTION+action:name:cn.jpush.android.intent.NOTIFICATION_OPENED+action:name:cn.jpush.android.intent.NOTIFICATION_RECEIVED+action:name:cn.jpush.android.intent.REGISTRATION+category:name:io.openim.app.demo
+ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-23:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-79
+	android:name
+		ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:15:25-76
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-83
+	android:name
+		ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:16:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-88
+	android:name
+		ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:17:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-86
+	android:name
+		ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:18:25-83
+action#cn.jpush.android.intent.NOTIFICATION_CLICK_ACTION
+ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-92
+	android:name
+		ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:19:25-89
+action#cn.jpush.android.intent.CONNECTION
+ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-74
+category#${applicationId}
+ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-61
+	android:name
+		ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:27-58
+category#io.openim.app.demo
+ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-61
+	android:name
+		ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:27-58
+receiver#com.jiguang.jpush.JPushEventReceiver
+ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-31:20
+	android:name
+		ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:25:19-70
+intent-filter#action:name:cn.jpush.android.intent.RECEIVE_MESSAGE+category:name:${applicationId}
+ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-30:29
+intent-filter#action:name:cn.jpush.android.intent.RECEIVE_MESSAGE+category:name:io.openim.app.demo
+ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-30:29
+action#cn.jpush.android.intent.RECEIVE_MESSAGE
+ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:27:25-79
+service#com.jiguang.jpush.JPushCustomService
+ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:35:9-43:19
+	android:process
+		ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-40
+	android:enabled
+		ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-64
+intent-filter#action:name:cn.jiguang.user.service.action
+ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-42:29
+action#cn.jiguang.user.service.action
+ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:41:17-73
+	android:name
+		ADDED from [:jpush_flutter] C:\Users\Dell\Desktop\EastIM3.3\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:41:25-70
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] C:\Users\Dell\Desktop\EastIM3.3\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher_android] C:\Users\Dell\Desktop\EastIM3.3\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher_android] C:\Users\Dell\Desktop\EastIM3.3\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher_android] C:\Users\Dell\Desktop\EastIM3.3\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from [:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-83
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:14:5-83
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:14:5-83
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:40:5-83
+MERGED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:40:5-83
+	android:name
+		ADDED from [:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-80
+provider#com.crazecoder.openfile.FileProvider
+ADDED from [:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-21:20
+	android:grantUriPermissions
+		ADDED from [:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-88
+	android:exported
+		ADDED from [:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+	tools:replace
+		ADDED from [:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-48
+	android:name
+		ADDED from [:open_file] C:\Users\Dell\Desktop\EastIM3.3\build\open_file\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-64
+provider#androidx.camera.camera2.impl.Camera2Initializer
+ADDED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e8ca00366c5e444d4262593405dc9a3b\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:25:9-30:43
+	android:authorities
+		ADDED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e8ca00366c5e444d4262593405dc9a3b\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:27:13-64
+	android:multiprocess
+		ADDED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e8ca00366c5e444d4262593405dc9a3b\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:30:13-40
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e8ca00366c5e444d4262593405dc9a3b\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:28:13-37
+	android:initOrder
+		ADDED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e8ca00366c5e444d4262593405dc9a3b\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\e8ca00366c5e444d4262593405dc9a3b\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:26:13-75
+intent#action:name:android.media.browse.MediaBrowserService
+ADDED from [androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:25:9-27:18
+action#android.media.browse.MediaBrowserService
+ADDED from [androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:26:13-79
+	android:name
+		ADDED from [androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:26:21-76
+intent#action:name:androidx.media2.session.MediaSessionService
+ADDED from [androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:28:9-30:18
+action#androidx.media2.session.MediaSessionService
+ADDED from [androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:29:13-82
+	android:name
+		ADDED from [androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:29:21-79
+intent#action:name:androidx.media2.session.MediaLibraryService
+ADDED from [androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:31:9-33:18
+action#androidx.media2.session.MediaLibraryService
+ADDED from [androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:32:13-82
+	android:name
+		ADDED from [androidx.media2:media2-session:1.1.3] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\9fa7552a101a77efacbcbf9f72b94dcc\jetified-media2-session-1.1.3\AndroidManifest.xml:32:21-79
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:38:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:37:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:40:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:43:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:47:9-53:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:50:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:49:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:51:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:53:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:52:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:4.2.0] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\497eb77aded3ef48767b27b842127b50\jetified-zxing-android-embedded-4.2.0\AndroidManifest.xml:48:13-74
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\091dc4e4cdcc7b8ff4528057aeb8408e\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+activity#com.tencent.bugly.beta.ui.BetaActiveAlertActivity
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:17:9-86
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:17:19-83
+service#com.tencent.bugly.beta.tinker.TinkerResultService
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:36:9-39:72
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:38:13-37
+	android:permission
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:39:13-69
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.5.23] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\5bd47c7d0f7aab6f22b90900d3d54b8e\jetified-crashreport_upgrade-1.5.23\AndroidManifest.xml:37:13-77
+permission#${JPUSH_PKGNAME}.permission.JPUSH_MESSAGE
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:11:5-13:47
+	android:protectionLevel
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:12:9-65
+permission#io.openim.app.demo.permission.JPUSH_MESSAGE
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:11:5-13:47
+	android:protectionLevel
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:12:9-65
+uses-permission#${JPUSH_PKGNAME}.permission.JPUSH_MESSAGE
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:16:22-78
+uses-permission#io.openim.app.demo.permission.JPUSH_MESSAGE
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:21:5-73
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:21:22-70
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:22:5-84
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:22:22-81
+uses-permission#com.vivo.notification.permission.BADGE_ICON
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:29:5-83
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:29:22-80
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:33:5-78
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:33:22-75
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:36:5-85
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:36:22-82
+uses-permission#android.permission.GET_TASKS
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:38:5-68
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:38:22-65
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:39:5-77
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:39:22-74
+activity#cn.jpush.android.ui.PopWinActivity
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:50:9-61:20
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:52:13-36
+	android:theme
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:53:13-49
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:51:13-62
+intent-filter#action:name:cn.jpush.android.ui.PopWinActivity+category:name:${JPUSH_PKGNAME}+category:name:android.intent.category.DEFAULT
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:54:13-60:29
+intent-filter#action:name:cn.jpush.android.ui.PopWinActivity+category:name:android.intent.category.DEFAULT+category:name:io.openim.app.demo
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:54:13-60:29
+category#android.intent.category.DEFAULT
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:55:17-76
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:55:27-73
+action#cn.jpush.android.ui.PopWinActivity
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:57:17-77
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:57:25-74
+category#${JPUSH_PKGNAME}
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:59:17-61
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:59:27-58
+activity#cn.jpush.android.ui.PushActivity
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:64:9-75:20
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:67:13-36
+	android:configChanges
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:66:13-63
+	android:theme
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:68:13-60
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:65:13-60
+intent-filter#action:name:cn.jpush.android.ui.PushActivity+category:name:${JPUSH_PKGNAME}+category:name:android.intent.category.DEFAULT
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:69:13-74:29
+intent-filter#action:name:cn.jpush.android.ui.PushActivity+category:name:android.intent.category.DEFAULT+category:name:io.openim.app.demo
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:69:13-74:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:70:17-75
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:70:25-72
+service#cn.jpush.android.service.PushService
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:78:9-89:19
+	android:process
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:82:13-40
+	android:enabled
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:80:13-35
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:81:13-37
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:79:13-64
+intent-filter#action:name:cn.jpush.android.intent.PUSH_TIME+action:name:cn.jpush.android.intent.PushService+action:name:cn.jpush.android.intent.REGISTER+action:name:cn.jpush.android.intent.REPORT
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:83:13-88:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:84:17-75
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:84:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:85:17-73
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:85:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:86:17-78
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:86:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:87:17-76
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:87:25-73
+service#cn.jpush.android.service.DaemonService
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:94:9-103:19
+	android:enabled
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:96:13-35
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:97:13-36
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:95:13-66
+intent-filter#action:name:cn.jpush.android.intent.DaemonService+category:name:${JPUSH_PKGNAME}
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:98:13-102:29
+intent-filter#action:name:cn.jpush.android.intent.DaemonService+category:name:io.openim.app.demo
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:98:13-102:29
+action#cn.jpush.android.intent.DaemonService
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:99:17-80
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:99:25-77
+activity#cn.jpush.android.service.DActivity
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:105:9-116:20
+	android:enabled
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:107:13-35
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:108:13-36
+	android:theme
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:110:13-72
+	android:taskAffinity
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:109:13-48
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:106:13-62
+intent-filter#action:name:cn.jpush.android.intent.DActivity+category:name:${applicationId}
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:111:13-115:29
+intent-filter#action:name:cn.jpush.android.intent.DActivity+category:name:io.openim.app.demo
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:111:13-115:29
+action#cn.jpush.android.intent.DActivity
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:112:17-76
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:112:25-73
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:119:9-137:20
+	android:enabled
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:121:13-35
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:122:13-37
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:120:13-65
+intent-filter#action:name:cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+category:name:${JPUSH_PKGNAME}
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:123:13-126:29
+	android:priority
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:123:28-51
+intent-filter#action:name:cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+category:name:io.openim.app.demo
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:123:13-126:29
+	android:priority
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:123:28-51
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:124:17-94
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:124:25-91
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:127:13-129:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:128:17-79
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:128:25-76
+intent-filter#action:name:android.intent.action.PACKAGE_ADDED+action:name:android.intent.action.PACKAGE_REMOVED+data:scheme:package
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:131:13-136:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:132:17-78
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:132:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:133:17-80
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:133:25-77
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:140:9-142:40
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:142:13-37
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:141:13-66
+receiver#cn.jpush.android.service.SchedulerReceiver
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:146:9-148:40
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:148:13-37
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:147:13-70
+provider#cn.jpush.android.service.DataProvider
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:151:9-155:43
+	android:process
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:155:13-40
+	android:authorities
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:153:13-64
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:154:13-37
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:152:13-65
+provider#cn.jpush.android.service.DownloadProvider
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:157:9-160:39
+	android:authorities
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:159:13-68
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:160:13-36
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:158:13-69
+activity#cn.jpush.android.service.JNotifyActivity
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:163:9-174:20
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:165:13-36
+	android:theme
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:167:13-46
+	android:taskAffinity
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:166:13-48
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:164:13-68
+intent-filter#action:name:cn.jpush.android.intent.JNotifyActivity+category:name:${applicationId}+category:name:android.intent.category.DEFAULT
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:168:13-173:29
+intent-filter#action:name:cn.jpush.android.intent.JNotifyActivity+category:name:android.intent.category.DEFAULT+category:name:io.openim.app.demo
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:168:13-173:29
+action#cn.jpush.android.intent.JNotifyActivity
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:169:17-82
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:169:25-79
+receiver#cn.jpush.android.asus.AsusPushMessageReceiver
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:177:9-179:40
+	android:exported
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:179:13-37
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:178:13-73
+meta-data#JPUSH_CHANNEL
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:181:9-183:48
+	android:value
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:183:13-45
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:182:13-41
+meta-data#JPUSH_APPKEY
+ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:184:9-186:47
+	android:value
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:186:13-44
+	android:name
+		ADDED from [cn.jiguang.sdk:jpush:4.4.5] C:\Users\Dell\.gradle\caches\transforms-2\files-2.1\f304c37f7165e9fc1fadf804c41d7292\jetified-jpush-4.4.5\AndroidManifest.xml:185:13-40

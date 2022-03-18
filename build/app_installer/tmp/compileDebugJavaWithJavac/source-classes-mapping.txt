@@ -1,0 +1,4 @@
+com/zero/app_installer/AppInstallerPlugin.java
+ com.zero.app_installer.AppInstallerPlugin
+com/zero/app_installer/BuildConfig.java
+ com.zero.app_installer.BuildConfig

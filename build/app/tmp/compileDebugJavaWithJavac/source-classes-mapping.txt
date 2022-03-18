@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+io/openim/app/demo/BuildConfig.java
+ io.openim.app.demo.BuildConfig
+io/openim/app/demo/MainActivity.java
+ io.openim.app.demo.MainActivity

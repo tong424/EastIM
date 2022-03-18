@@ -1,0 +1,94 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Dell\\Desktop\\EastIM3.3\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hu\\values-hu.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-2\\files-2.1\\8e826fe49562abada5d181756485a861\\appcompat-1.3.0\\res\\values-hu\\values-hu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,213,305,420,504,619,742,819,894,985,1078,1173,1267,1367,1460,1555,1650,1741,1832,1915,2025,2135,2235,2346,2455,2574,2756,2859",
+                        "endColumns": "107,91,114,83,114,122,76,74,90,92,94,93,99,92,94,94,90,90,82,109,109,99,110,108,118,181,102,83",
+                        "endOffsets": "208,300,415,499,614,737,814,889,980,1073,1168,1262,1362,1455,1550,1645,1736,1827,1910,2020,2130,2230,2341,2450,2569,2751,2854,2938"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,213,305,420,504,619,742,819,894,985,1078,1173,1267,1367,1460,1555,1650,1741,1832,1915,2025,2135,2235,2346,2455,2574,2756,3581",
+                        "endColumns": "107,91,114,83,114,122,76,74,90,92,94,93,99,92,94,94,90,90,82,109,109,99,110,108,118,181,102,83",
+                        "endOffsets": "208,300,415,499,614,737,814,889,980,1073,1168,1262,1362,1455,1550,1645,1736,1827,1910,2020,2130,2230,2341,2450,2569,2751,2854,3660"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-2\\files-2.1\\67ff0aaf930f65024e6c37d99bc9e852\\core-1.6.0\\res\\values-hu\\values-hu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "39",
+                        "startColumns": "4",
+                        "startOffsets": "3920",
+                        "endColumns": "100",
+                        "endOffsets": "4016"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-2\\files-2.1\\fd8c6d4001161766613fe7688dfbbb89\\browser-1.3.0\\res\\values-hu\\values-hu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,151,252,367",
+                        "endColumns": "95,100,114,103",
+                        "endOffsets": "146,247,362,466"
+                    },
+                    "to": {
+                        "startLines": "29,31,32,33",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "2859,3063,3164,3279",
+                        "endColumns": "95,100,114,103",
+                        "endOffsets": "2950,3159,3274,3378"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-2\\files-2.1\\497eb77aded3ef48767b27b842127b50\\jetified-zxing-android-embedded-4.2.0\\res\\values-hu\\values-hu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,287",
+                        "endColumns": "58,46,125,115",
+                        "endOffsets": "109,156,282,398"
+                    },
+                    "to": {
+                        "startLines": "40,41,42,43",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "4021,4080,4127,4253",
+                        "endColumns": "58,46,125,115",
+                        "endOffsets": "4075,4122,4248,4364"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-2\\files-2.1\\9fa7552a101a77efacbcbf9f72b94dcc\\jetified-media2-session-1.1.3\\res\\values-hu\\values-hu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,163,261,361,487",
+                        "endColumns": "107,97,99,125,128",
+                        "endOffsets": "158,256,356,482,611"
+                    },
+                    "to": {
+                        "startLines": "30,34,35,37,38",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "2955,3383,3481,3665,3791",
+                        "endColumns": "107,97,99,125,128",
+                        "endOffsets": "3058,3476,3576,3786,3915"
+                    }
+                }
+            ]
+        }
+    ]
+}

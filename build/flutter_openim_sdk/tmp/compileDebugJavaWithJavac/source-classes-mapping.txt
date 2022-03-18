@@ -1,0 +1,35 @@
+io/openim/flutter_openim_sdk/util/CommonUtil.java
+ io.openim.flutter_openim_sdk.util.CommonUtil
+io/openim/flutter_openim_sdk/listener/AdvancedMsgListener.java
+ io.openim.flutter_openim_sdk.listener.AdvancedMsgListener
+io/openim/flutter_openim_sdk/manager/ConversationManager.java
+ io.openim.flutter_openim_sdk.manager.ConversationManager
+io/openim/flutter_openim_sdk/util/JsonUtil.java
+ io.openim.flutter_openim_sdk.util.JsonUtil
+io/openim/flutter_openim_sdk/manager/IMManager.java
+ io.openim.flutter_openim_sdk.manager.IMManager
+io/openim/flutter_openim_sdk/listener/FriendshipListener.java
+ io.openim.flutter_openim_sdk.listener.FriendshipListener
+io/openim/flutter_openim_sdk/listener/BaseListener.java
+ io.openim.flutter_openim_sdk.listener.BaseListener
+io/openim/flutter_openim_sdk/listener/MsgSendProgressListener.java
+ io.openim.flutter_openim_sdk.listener.MsgSendProgressListener
+io/openim/flutter_openim_sdk/manager/BaseManager.java
+ io.openim.flutter_openim_sdk.manager.BaseManager
+io/openim/flutter_openim_sdk/manager/FriendshipManager.java
+ io.openim.flutter_openim_sdk.manager.FriendshipManager
+io/openim/flutter_openim_sdk/listener/SDKListener.java
+ io.openim.flutter_openim_sdk.listener.SDKListener
+io/openim/flutter_openim_sdk/BuildConfig.java
+ io.openim.flutter_openim_sdk.BuildConfig
+io/openim/flutter_openim_sdk/manager/MessageManager.java
+ io.openim.flutter_openim_sdk.manager.MessageManager
+ io.openim.flutter_openim_sdk.manager.MessageManager$1
+io/openim/flutter_openim_sdk/manager/GroupManager.java
+ io.openim.flutter_openim_sdk.manager.GroupManager
+io/openim/flutter_openim_sdk/listener/ConversationListener.java
+ io.openim.flutter_openim_sdk.listener.ConversationListener
+io/openim/flutter_openim_sdk/listener/GroupListener.java
+ io.openim.flutter_openim_sdk.listener.GroupListener
+io/openim/flutter_openim_sdk/FlutterOpenimSdkPlugin.java
+ io.openim.flutter_openim_sdk.FlutterOpenimSdkPlugin

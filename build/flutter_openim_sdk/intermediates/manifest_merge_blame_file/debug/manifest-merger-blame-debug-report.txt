@@ -1,0 +1,8 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.openim.flutter_openim_sdk" >
+4
+5    <uses-sdk android:minSdkVersion="21" />
+5-->C:\Users\Dell\AppData\Local\Pub\Cache\git\Open-IM-SDK-Flutter-22509bc10f088a066c6bb79b7dbbd98039c0f337\android\src\main\AndroidManifest.xml
+6
+7</manifest>
